@@ -54,8 +54,8 @@ The Note Taker App is built using the following technologies:
 - Bootstrap: A popular CSS framework for building responsive and mobile-first websites.
 
 ## Project Links
-Deployed App: https://note-taker-week11-d6572b10f7f0.herokuapp.com/
-GitHub Repo: https://github.com/KGBerry542/Note-Taker
+- Deployed App: https://note-taker-week11-d6572b10f7f0.herokuapp.com/
+- GitHub Repo: https://github.com/KGBerry542/Note-Taker
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
