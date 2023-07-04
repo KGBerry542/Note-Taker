@@ -2,9 +2,9 @@
 The Note Taker App is a simple web application that allows users to create, view, and delete notes. It provides a user-friendly interface for managing personal notes and keeping track of important information.
 
 ## User Story
-AS A small business owner
-I WANT to be able to write and save notes
-SO THAT I can organize my thoughts and keep track of tasks I need to complete
+- AS A small business owner
+- I WANT to be able to write and save notes
+- SO THAT I can organize my thoughts and keep track of tasks I need to complete
 
 ## Acceptance Criteria
 - GIVEN a note-taking application
