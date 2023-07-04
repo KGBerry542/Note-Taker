@@ -4,9 +4,15 @@ const fsUtils = require('../helpers/fsUtils');
 const router = express.Router();
 
 router.get('/notes', (req, res) => {
-  fsUtils.readFromFile('db/db.json')
-    .then(data => res.json(data))
-    .catch(err => res.status(500).json({ error: 'Failed to read notes data.' }));
+  fsUtils
+    .readFromFile('db/db.json')
+    .then((data) => {
+      const notes = JSON.parse(data);
+      res.json(notes);
+    })
+    .catch((err) =>
+      res.status(500).json({ error: 'Failed to read notes data.' })
+    );
 });
 
 router.post('/notes', (req, res) => {
